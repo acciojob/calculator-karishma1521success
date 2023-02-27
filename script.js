@@ -18,7 +18,6 @@ function deleteValue(){
 
 function answer(){
     let displayInput = document.getElementById('input');
-    console.log(displayInput.value);
-    let strNumber = displayInput.value;  // 8+8+6+3
-    let sum = 0
+    let ans = eval(displayInput.value);
+    displayInput.value = ans;
 }
