@@ -8,6 +8,43 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="calculator">
+		<div class="output">
+			<input type="text" id="input" name="display">
+		</div>
+		<div class="div-1">
+			<button id="clr" onclick="document.getElementById('input').value = '' ">C</button>
+			<button id="divide" onclick="buttonNumber(this.id)">/</button>
+			<button id="multiply" onclick="buttonNumber(this.id)">*</button>
+			<button id="delete" onclick="deleteValue()">Del</button>
+		</div>
+		<div class="div-2">
+			<button id="block7" onclick="buttonNumber(this.id)">7</button>
+			<button id="block8" onclick="buttonNumber(this.id)">8</button>
+			<button id="block9" onclick="buttonNumber(this.id)">9</button>
+			<button id="minus" onclick="buttonNumber(this.id)">-</button>
+			
+
+		</div>
+		<div class="div3">
+			<button id="block4" onclick="buttonNumber(this.id)">4</button>
+			<button id="block5" onclick="buttonNumber(this.id)">5</button>
+			<button id="block6" onclick="buttonNumber(this.id)">6</button>
+			<button id="plus" onclick="buttonNumber(this.id)">+</button>
+		</div>
+		<div class="div4">
+			<button id="block1" onclick="buttonNumber(this.id)">1</button>
+			<button id="block2"onclick="buttonNumber(this.id)">2</button>
+			<button id="block3" onclick="buttonNumber(this.id)">3</button>
+			<button id="dot" onclick="buttonNumber(this.id)">.</button>
+		</div>
+		<div class="div5">
+			<button id="openBracket" onclick="buttonNumber(this.id)">(</button>
+			<button id="block0" onclick="buttonNumber(this.id)">0</button>
+			<button id="closedBracket" onclick="buttonNumber(this.id)">)</button>
+			<button id="ans" onclick="answer()">=</button>
+		</div>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
